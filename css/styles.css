@@ -16,6 +16,11 @@ body {
   font-weight: 400;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .logo {
   font-family: "Raleway"; /* задаём шрифт и размер ЛОГО */
   font-weight: 700;
@@ -92,6 +97,7 @@ body {
 .footer-base {
   /* основа цвета ШАПКИ и подвала */
   background: #2f303a;
+
 }
 
 h1 {
@@ -121,7 +127,7 @@ h1 {
   color: var(--light-main-color);
   /* курсор мыши при наведении*/
   cursor: pointer;
-  margin: 10px;
+  margin-top: 30px;
 }
 
 .btn-hero:hover {
@@ -156,6 +162,7 @@ h1 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--description-color);
+  margin-top: 10px;
 }
 
 .visually-hidden {
@@ -183,23 +190,27 @@ h2 {
 .our-team {
   /* фон блока Наша команда */
   background: #f5f4fa;
+
 }
 
-.our-team h3 {
+.our-team-header {
   /* стиль заголовков Наша команда */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--text-main-color);
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
-.our-team li {
+.our-team-item {
   background: #ffffff;
   /* material shadow v1 */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
 }
 
 .our-team p {
@@ -214,6 +225,8 @@ h2 {
 .address-style {
   /* стиль адреса */
   font-style: inherit;
+  padding-top: 20px;
+  line-height: 1.8;
 }
 
 /*  Портфолио */
@@ -229,7 +242,6 @@ h2 {
   letter-spacing: 0.03em;
   border-radius: 4px;
   border: none;
-  margin-top: 4px;
   padding: 6px 22px;
   cursor: pointer;
 }
@@ -260,7 +272,7 @@ h2 {
   background: var(--main-bg);
   border: 1px solid var(--light-gray);
   max-width: 370px;
-  margin: 0 30px 30px 0; /*отступ между меэлементами списка*/
+   /*отступ между меэлементами списка*/
 }
 
 .our-joblist-style h3 {
@@ -276,7 +288,152 @@ h2 {
   /* имена и профессии команды */
   /* font-weight: 400; */
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 2.5;
   letter-spacing: 0.03em;
   color: var(--description-color);
+}
+
+/* параметры секции header */
+.header {
+  width: 1200px;
+  margin: auto;
+}
+
+.header-container {
+  /*border: 1px solid green;*/
+  border-bottom: 1px solid #ECECEC;
+}
+
+.header-nav {
+  border: 0px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.header-menu {
+  display: flex;
+  /* flex-grow: 0; */
+  gap: 50px;
+  padding-left: 93px;
+}
+
+/* параметры секции Main */
+
+.main {
+  width: 1200px;
+  margin: auto;
+}
+
+/* секции index.html */
+.hero-base-container {
+  text-align: center;
+  width: 696px;
+  margin: auto;
+  padding: 200px 0px;
+}
+
+.features {
+  border: 0px solid black;
+  width: 1170px;
+  margin: auto;
+  padding-top: 94px;
+}
+
+.feautures-container {
+  border: 0px solid red;
+  margin-bottom: 94px;
+}
+
+.feautures-list {
+  display: flex;
+  gap: 30px;
+}
+
+.features-item {
+  width: 270px;
+}
+
+.whatwedo-container {
+  border: 0px solid black;
+  width: 1170px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 94px;
+}
+
+.whatwedo-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.whatwedo-img{
+  display: block;
+}
+
+.our-team-container {
+  border: 0px solid black;
+  width: 1200px;
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.our-team-list {
+  padding-top: 50px ;
+  display: flex;
+  gap: 30px;
+  width: 1170px;
+  margin: auto;
+}
+
+.footer-base {
+  width: 1200px;
+  margin: auto;
+  padding: 60px 30px;
+}
+
+/* портфолио */
+
+/* секция фильтры */
+
+.portfolio-container {
+  border: 0px solid black; 
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+
+.filters_container {
+  width: 575px;
+  margin: auto;
+  padding-bottom: 34px;
+}
+
+.filters_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-joblist-container {
+ max-width: 1170px;
+ border: 0px solid black;
+ margin: auto;
+}
+
+.our-jobs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.jobs-img{
+  display: block;
+}
+
+.job-title {
+  padding: 15px 24px 15px 24px;
+  border: 0px solid black;
 }
