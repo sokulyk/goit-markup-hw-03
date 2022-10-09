@@ -1,3 +1,3 @@
-# goit-markup-hw-01
-домашнее задание 2
+# goit-markup-hw-03
+домашнее задание 3
 файлы index.html, portfolio.html, styles.css, img folder
