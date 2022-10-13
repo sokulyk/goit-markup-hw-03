@@ -60,6 +60,8 @@ margin-bottom: 20px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-main-color);
+  padding: 32px 0;
+  display: block;
 }
 
 /* цвет ссылок контактов шапка*/
@@ -106,7 +108,8 @@ margin-bottom: 20px;
 
 }
 
-/* 12. Для .btn-hero приберіть ширину, висоту, марджин. Задайте паддиги за макетом */
+/* 12. Для .btn-hero приберіть ширину, висоту, марджин. 
+Задайте паддиги за макетом */
 
 .btn-hero {
   /* оформляем кнопку Замовити */
@@ -127,6 +130,8 @@ margin-bottom: 20px;
   /* курсор мыши при наведении*/
   cursor: pointer;
   /* margin-top: 30px; */
+  margin: 0 auto;
+  display: block;
 }
 
 .btn-hero:hover {
@@ -196,8 +201,30 @@ h2 {
 .our-team {
   /* фон блока Наша команда */
   background: #f5f4fa;
-padding-top: 94px;
-padding-top: 94px;
+  padding: 94px 0;
+}
+
+
+/* 23. Для .our-team-list приберіть паддинг */
+
+.our-team-list {
+  /* padding-top: 50px ; */
+  display: flex;
+  gap: 30px;
+  width: 1170px;
+  margin: auto;
+}
+
+/* 24. Для .our-team-item приберіть паддинг */
+
+.our-team-item {
+  background: #ffffff;
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  /* padding-bottom: 30px; */
+  text-align: center;
 }
 
 /* 25. Для .our-team-header нижній паддинг замініть на марджин */
@@ -212,17 +239,6 @@ padding-top: 94px;
   padding-top: 30px;
   /* padding-bottom: 10px; */
   margin-bottom: 10px;
-}
-
-/* 24. Для .our-team-item приберіть паддинг */
-
-.our-team-item {
-  background: #ffffff;
-  /* material shadow v1 */
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  /* padding-bottom: 30px; */
 }
 
 .our-team-par {
@@ -240,7 +256,7 @@ padding-top: 94px;
 .address-style {
   /* стиль адреса */
   font-style: inherit;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   /* line-height: 1.8; */
 }
 
@@ -339,6 +355,10 @@ padding-top: 94px;
   padding: 0 15px;
 }
 
+.header-container {
+  display: flex;
+}
+
 /* 5. Для .header-nav приберіть висоту */
 
 .header-nav {
@@ -381,8 +401,7 @@ padding-top: 94px;
 /* 9. Для hero-base задайте верхній і нижній паддинги по 200рх */
 
 .hero-base {
-padding-top: 200px;
-padding-bottom: 200px;  
+padding: 200px 0;
 }
 
 /*.hero-base-container {
@@ -404,7 +423,8 @@ padding-bottom: 200px;
   text-transform: uppercase;
   color: var(--light-main-color);
   width: 696px;
-  margin-bottom: 200px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* 13. Для .features залиште лише верхній паддинг і додайте нижній, інші стилі приберіть  */
@@ -413,8 +433,7 @@ padding-bottom: 200px;
   /* border: 0px solid black; */
   /* width: 1170px; */
   /* margin: auto; */
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0;
 }
 
 /* 14. Дів .feautures-container має бути .container , приберіть марджин */
@@ -445,20 +464,19 @@ padding-bottom: 200px;
 
 /* 18. Всередині кожної секції повинен бути дів контейнер, щоб обмежити ширину контенту */
 
-
-.whatwedo-container {
-  border: 0px solid black;
-  width: 1170px;
+/* .whatwedo-container { */
+  /* border: 0px solid black; */
+  /* width: 1170px; */
   /* margin: auto; */
-  text-align: center;
-}
+  /* text-align: center; */
+/* } */
 
 /* 17. Для заголовку задайте клас, усі стилі задайте по селектору
 класу. Додайте нижній марджин */
 
 .whatwedo-header {
-  border: 0px solid black;
-  width: 1170px;
+  /* border: 0px solid black; */
+  /* width: 1170px; */
   margin: auto;
   margin-bottom: 50px; 
   text-align: center;
@@ -481,26 +499,10 @@ padding-bottom: 200px;
   height:auto;
 }
 
-.our-team-container {
-  border: 0px solid black;
-  width: 1200px;
-  text-align: center;
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-/* 23. Для .our-team-list приберіть паддинг */
-
-.our-team-list {
-  /* padding-top: 50px ; */
-  display: flex;
-  gap: 30px;
-  width: 1170px;
-  margin: auto;
-}
 
 /* 27. Для .footer-base приберіть ширину,
- марджини і бокові паддинги. Всередині має бути дів контейнер */
+ марджини і бокові паддинги. 
+ Всередині має бути дів контейнер */
 
 .footer-base {
   /* width: 1200px; */
