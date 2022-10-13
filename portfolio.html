@@ -17,22 +17,22 @@
 
 <body>
     <header class="header">
-        <div class="container">
-            <div class="header-container">
+        <div class="container header-container">
+            
+
                 <nav class="header-nav">
-                    <a href="./index.html" class="logo">
-                        <span class="logo-accent">Web</span><span>Studio</span></a>
+                    <a href="./index.html" class="logo"><span class="logo-accent">Web</span><span>Studio</span></a>
                     <ul class="list header-menu">
                     <li><a class="links hat" href="./index.html">Студія</a></li>
                     <li><a class="links hat current" href="./portfolio.html">Портфоліо</a></li>
                     <li><a class="links hat" href="#">Контакти</a></li>
                     </ul>
-                    <ul class="list header-menu">
-                        <li><a href="mailto:info@devstudio.com" class="links contacts">info@devstudio.com</a></li>
-                        <li><a href="tel:+380961111111" class="links contacts">+38 096 111 11 11</a></li>
-                    </ul>
-                 </nav>
-            </div>
+                </nav>
+
+                <ul class="list header-menu-contacts">
+                    <li><a class="links contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="links contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>                         
         </div>   
     </header>
     <main class="main">
@@ -129,17 +129,19 @@
         </section>
     </main>
     <footer class="footer-base">
-        <a href="./index.html" class="links logo">
+        <div class="container"> 
+        <a href="./index.html" class="logo footer">
             <span class="logo-accent">Web</span><span class="logo-white">Studio</span></a>
         <address class="address-style">
             <ul class="list">
-                <li><a class="links street-links" href="https://goo.gl/maps/GKhobsWF1xFbK7M66">м. Київ, пр-т Лесі
+                <li class="address-string"><a class="links street-links" href="https://goo.gl/maps/GKhobsWF1xFbK7M66">м. Київ, пр-т Лесі
                         Українки,
                         26</a></li>
-                <li><a class="links foot-links" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="links foot-links" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="address-string"><a class="links foot-links" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="address-string"><a class="links foot-links" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
+        </div>
     </footer>
 </body>
 
