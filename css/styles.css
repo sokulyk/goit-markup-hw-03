@@ -131,8 +131,9 @@ margin-bottom: 20px;
   /* курсор мыши при наведении*/
   cursor: pointer;
   /* margin-top: 30px; */
-  margin: 0 auto;
   display: block;
+  margin: 30px auto 0;
+  
 }
 
 .btn-hero:hover {
@@ -509,6 +510,7 @@ padding: 200px 0;
   /* width: 1200px; */
   /* margin: auto; */
   /* padding: 60px 30px; */
+padding: 60px 0;
 }
 
 /* портфолио */
