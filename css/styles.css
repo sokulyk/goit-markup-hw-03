@@ -32,7 +32,8 @@ body {
 
 /* 28. Для лого в футері потрібно задати нижній марджин */
 
-.logo .footer {
+.logo.footer {
+display: block;
 margin-bottom: 20px;
 }
 
